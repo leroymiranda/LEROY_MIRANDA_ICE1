@@ -33,6 +33,7 @@ public class CardTrick {
             
             System.out.println("Card = " + magicHand[i].getSuit()+""+magicHand[i].getValue());
             
+            //Lucky card
             String luckyCard = "Diamonds 6";
                    
             if ((s +" "+v).equals(magicHand[i].getSuit()+ " " +magicHand[i].getValue()) || (luckyCard.equals(magicHand[i].getSuit()+ "" +magicHand[i].getValue()))){
